@@ -1,0 +1,25 @@
+{
+  "name": "zig-auto-swapper",
+  "version": "1.0.0",
+  "description": "Auto swap bot for ZIG Chain",
+  "main": "swap.js",
+  "scripts": {
+    "start": "node swap.js",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.32.2",
+    "@cosmjs/proto-signing": "^0.32.2",
+    "@cosmjs/stargate": "^0.32.2",
+    "https-proxy-agent": "^7.0.2"
+  },
+  "keywords": [
+    "zig",
+    "blockchain",
+    "swap",
+    "bot",
+    "cosmjs"
+  ],
+  "author": "ZIG Auto Swapper",
+  "license": "MIT"
+}
